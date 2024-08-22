@@ -1,0 +1,12 @@
+.rodape {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    padding: 30px;
+}
+
+.rodape p {
+    font-family: Vollkorn, Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+}

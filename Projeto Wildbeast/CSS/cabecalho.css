@@ -1,0 +1,45 @@
+.cabecalho {
+    background: linear-gradient(135deg, #8844ee, #b07dfb);
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    min-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-family: Vollkorn, Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.lista {
+    display: flex;
+    gap: 13px;
+}
+
+.lista-itens {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    list-style-type: none;
+    border-radius: 8px;
+}
+
+.lista-itens:hover {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.lista-itens a {
+    color: white;
+    font-family: Vollkorn, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
